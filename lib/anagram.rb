@@ -7,6 +7,6 @@ class Anagram
   end 
   
   def match(array)
-    
+    array.keep_if{|sting|}
   end 
 end 
