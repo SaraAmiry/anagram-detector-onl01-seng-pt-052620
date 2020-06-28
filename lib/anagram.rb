@@ -7,6 +7,6 @@ class Anagram
   end 
   
   def match(array)
-    array.keep_if{|sting| name.split('').sort }
+    array.keep_if{|string| name.split('').sort }
   end 
 end 
